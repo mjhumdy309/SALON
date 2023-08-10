@@ -3,12 +3,11 @@
     src: url(https://fonts.googleapis.com/css2?family=Cairo&display=swap);
 }
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: cairo;
     text-decoration: none;
-    list-style: none;
 }
 nav{
     background-color: pink;
@@ -67,10 +66,6 @@ a.active,a:hover{
     }
 }
 @media (max-width: 858px ){
-    label.logo{
-        padding-left: 50%;
-        padding-right: 50%;
-    }
     nav ul li a{
         display: none;
     }
@@ -85,6 +80,7 @@ a.active,a:hover{
     padding-top: px;
     padding-bottom: 300px;
     background-color: black;
+    text-shadow: 0 0 10px #000000;
 }
 .whoose-uss{
     color: white;
@@ -94,6 +90,7 @@ a.active,a:hover{
 .whoose-ussan{
     color: white;
     font-weight: bold;
+    overflow: right;
 }
 .sec2{
     background-size: cover;
@@ -103,6 +100,7 @@ a.active,a:hover{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: pink;
+    text-shadow: 0 0 10px #000000;
 }
 .why-uss{
     color: white;
@@ -111,4 +109,50 @@ a.active,a:hover{
 .why-ussan{
     color: white;
     font-weight: bold;
+}
+.sec3{
+    color: white;
+    background-size: cover;
+    height: 100vh 80px;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: pink;
+    text-shadow: 0 0 10px #000000;
+    
+}
+.servics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: palevioletred;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card-img{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.img1{
+    background-image: url(hair-pic.jpg);
+}
+.img2{
+    background-image: url(nail-pic.jpg);
+}
+.img3{
+    background-image: url(makeup-pic.jpg);
 }
